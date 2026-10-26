@@ -1,8 +1,10 @@
 name: Desktop ISO
+
 on:
+  workflow_dispatch:
   push:
     branches:
-    - master
+      - master
   pull_request:
 
 concurrency:
